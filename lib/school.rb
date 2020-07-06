@@ -25,5 +25,5 @@ class School
         students.sort!
       end
     end
-
+end
       
