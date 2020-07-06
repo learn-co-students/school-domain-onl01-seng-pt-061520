@@ -11,7 +11,7 @@ class School
       if @roster.include? grades
         @roster[grades] << "#(student)"
       else
-        @roser[grades] = []
+        @roster[grades] = []
         @roster[grades] << "#(student)"
       end
     end
