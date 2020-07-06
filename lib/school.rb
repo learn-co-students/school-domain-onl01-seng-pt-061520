@@ -8,5 +8,22 @@ class School
     end
     
     def add_student(student, grades)
-      if @roster.include?grades
-        
+      if @roster.include? grades
+        @roster[grades] << "#(student)"
+      else
+        @roser[grades] = []
+        @roster[grades] << "#(student)"
+      end
+    end
+    
+    def grade(level)
+      @roster[grade_level]
+    end
+    
+    def sort
+      @roster.each do |grades, students|
+        students.sort!
+      end
+    end
+  end
+      
