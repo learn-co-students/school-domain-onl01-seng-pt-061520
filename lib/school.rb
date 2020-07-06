@@ -3,7 +3,7 @@ class School
   attr_accessor
   attr_reader :roster
   def initialize(roster)
-    if @roster = roster
+      @roster = roster
       @roster = {}
     end
     
