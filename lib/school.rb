@@ -1,7 +1,9 @@
 # code here!
 class School
-  roster = []
+  initialize=(name)
+  roster = {}
 
-def add_student(name, grade)
+def add_student
   
 end
+end 
