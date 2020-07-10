@@ -1,6 +1,7 @@
 # code here!
 class School
-  initialize=(name)
+  initialize(name)
+  @name = name
   roster = {}
 
 def add_student
